@@ -27,6 +27,6 @@ jobs:
           push: true
           tags: |
             rdurbano/rotten-potatoes:latest
-            rdurbano/rotten-potatoes: ${{ github.run_number }}
+            rdurbano/rotten-potatoes:${{ github.run_number}}
 
      
